@@ -1,11 +1,11 @@
-import { View, Text } from 'react-native'
-import React from 'react'
+import { View, Text } from "react-native";
+import React from "react";
+import DownloadImageScreen from "./src/screens/DownloadImageScreen";
 
 export default function App() {
   return (
-    <View>
-      <Text>App</Text>
-      <Text>App</Text>
-    </View>
-  )
+    <>
+      <DownloadImageScreen />
+    </>
+  );
 }
